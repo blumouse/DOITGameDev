@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637566707819670233
-    m_Hash: 3119708035
+      ticks: 637566781110000000
+    m_Hash: 2053551833
   m_LockFileStatus:
     m_FilePath: C:/Users/888tj/Documents/GitHub/DOITGameDev/DOITGameDev/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637566707819680209
-    m_Hash: 4025997024
+      ticks: 637566781110000000
+    m_Hash: 2154220959
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
