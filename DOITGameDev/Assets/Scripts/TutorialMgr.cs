@@ -1,18 +1,42 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TutorialMgr : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject jumptext;
+    public GameObject slidetext;
+
+    private void OnEnable()
     {
-        
+        Invoke("Tutorial", 3f);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void JumpClicked()
     {
-        
+        jumptext.SetActive(false);
+    }
+
+    public void SlideClicked()
+    {
+        slidetext.SetActive(false);
+    }
+
+    void Tutorial()
+    {
+        StartCoroutine("Blink", jumptext);
+        StartCoroutine("Blink", slidetext);
+    }
+
+    IEnumerator Blink(GameObject text)
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            text.SetActive(false);
+            yield return new WaitForSeconds(0.5f);
+            text.SetActive(true);
+            yield return new WaitForSeconds(0.5f);            
+        }
     }
 }
