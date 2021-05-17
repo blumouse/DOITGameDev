@@ -45,7 +45,19 @@ MonoBehaviour:
     height: 676
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+<<<<<<< Updated upstream
   m_ActualView: {fileID: 15}
+=======
+  m_ActualView: {fileID: 14}
+>>>>>>> Stashed changes
+=======
+  m_ActualView: {fileID: 14}
+>>>>>>> parent of 974ee44 (배경 움직임, 튜토리얼 일부)
+=======
+  m_ActualView: {fileID: 15}
+>>>>>>> Stashed changes
   m_Panes:
   - {fileID: 15}
   m_Selected: 0
@@ -75,11 +87,20 @@ MonoBehaviour:
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> parent of 974ee44 (배경 움직임, 튜토리얼 일부)
   controlID: 73
 =======
   controlID: 64
 >>>>>>> Stashed changes
 --- !u!114 &4
+=======
+  controlID: 48
+--- !u!114 &5
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -104,11 +125,20 @@ MonoBehaviour:
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> parent of 974ee44 (배경 움직임, 튜토리얼 일부)
   controlID: 17
 =======
   controlID: 58
 >>>>>>> Stashed changes
 --- !u!114 &5
+=======
+  controlID: 17
+--- !u!114 &6
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -129,7 +159,16 @@ MonoBehaviour:
     height: 947
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+<<<<<<< Updated upstream
   m_ActualView: {fileID: 14}
+=======
+  m_ActualView: {fileID: 13}
+>>>>>>> parent of 974ee44 (배경 움직임, 튜토리얼 일부)
+=======
+  m_ActualView: {fileID: 14}
+>>>>>>> Stashed changes
   m_Panes:
   - {fileID: 14}
   m_Selected: 0
@@ -155,7 +194,17 @@ MonoBehaviour:
     height: 271
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
   m_ActualView: {fileID: 13}
+=======
+  m_ActualView: {fileID: 12}
+>>>>>>> parent of 974ee44 (배경 움직임, 튜토리얼 일부)
+=======
+  m_ActualView: {fileID: 13}
+>>>>>>> Stashed changes
   m_Panes:
   - {fileID: 13}
   - {fileID: 12}
@@ -261,7 +310,19 @@ MonoBehaviour:
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 72
+=======
+  controlID: 63
+>>>>>>> Stashed changes
+=======
+  controlID: 47
+>>>>>>> Stashed changes
+=======
+  controlID: 72
+>>>>>>> parent of 974ee44 (배경 움직임, 튜토리얼 일부)
 =======
   controlID: 63
 >>>>>>> Stashed changes
@@ -372,9 +433,27 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_SelectedIDs: c8400000
     m_LastClickedID: 16584
     m_ExpandedIDs: 00000000c8400000ca40000000ca9a3b
+=======
+    m_SelectedIDs: a4400000
+    m_LastClickedID: 16548
+    m_ExpandedIDs: 00000000a4400000a640000000ca9a3b
+>>>>>>> Stashed changes
+=======
+    m_SelectedIDs: 44400000
+    m_LastClickedID: 16452
+    m_ExpandedIDs: 00000000444000004640000000ca9a3b
+>>>>>>> Stashed changes
+=======
+    m_SelectedIDs: c8400000
+    m_LastClickedID: 16584
+    m_ExpandedIDs: 00000000c8400000ca40000000ca9a3b
+>>>>>>> parent of 974ee44 (배경 움직임, 튜토리얼 일부)
 =======
     m_SelectedIDs: a4400000
     m_LastClickedID: 16548
@@ -408,7 +487,19 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_ExpandedIDs: 00000000c8400000ca400000
+=======
+    m_ExpandedIDs: 00000000a4400000a6400000
+>>>>>>> Stashed changes
+=======
+    m_ExpandedIDs: 000000004440000046400000
+>>>>>>> Stashed changes
+=======
+    m_ExpandedIDs: 00000000c8400000ca400000
+>>>>>>> parent of 974ee44 (배경 움직임, 튜토리얼 일부)
 =======
     m_ExpandedIDs: 00000000a4400000a6400000
 >>>>>>> Stashed changes
@@ -532,10 +623,22 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 56400000
       m_LastClickedID: 0
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
       m_ExpandedIDs: 5afaffff
+=======
+      m_ExpandedIDs: 
+>>>>>>> Stashed changes
+=======
+      m_ExpandedIDs: 2cfbffff
+>>>>>>> Stashed changes
+=======
+      m_ExpandedIDs: 5afaffff
+>>>>>>> parent of 974ee44 (배경 움직임, 튜토리얼 일부)
 =======
       m_ExpandedIDs: 
 >>>>>>> Stashed changes
@@ -724,10 +827,27 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< Updated upstream
     m_HBaseRangeMin: -608
     m_HBaseRangeMax: 608
+<<<<<<< Updated upstream
+<<<<<<< HEAD
     m_VBaseRangeMin: -317
     m_VBaseRangeMax: 317
+=======
+    m_HBaseRangeMin: -481.5
+    m_HBaseRangeMax: 481.5
+    m_VBaseRangeMin: -327.5
+    m_VBaseRangeMax: 327.5
+>>>>>>> Stashed changes
+=======
+    m_VBaseRangeMin: -327.5
+    m_VBaseRangeMax: 327.5
+>>>>>>> parent of 974ee44 (배경 움직임, 튜토리얼 일부)
+=======
+    m_VBaseRangeMin: -317
+    m_VBaseRangeMax: 317
+>>>>>>> Stashed changes
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -744,21 +864,60 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+<<<<<<< Updated upstream
       y: 21
+=======
+      y: 0
+>>>>>>> parent of 974ee44 (배경 움직임, 튜토리얼 일부)
+=======
+      y: 21
+>>>>>>> Stashed changes
       width: 1216
       height: 634
     m_Scale: {x: 1, y: 1}
+<<<<<<< Updated upstream
+<<<<<<< HEAD
     m_Translation: {x: 608, y: 317}
+=======
+      y: 0
+      width: 963
+      height: 655
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 481.5, y: 327.5}
+>>>>>>> Stashed changes
+=======
+    m_Translation: {x: 608, y: 327.5}
+>>>>>>> parent of 974ee44 (배경 움직임, 튜토리얼 일부)
+=======
+    m_Translation: {x: 608, y: 317}
+>>>>>>> Stashed changes
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< Updated upstream
       x: -608
       y: -317
       width: 1216
+<<<<<<< Updated upstream
+<<<<<<< HEAD
       height: 634
+=======
+      x: -481.5
+      y: -327.5
+      width: 963
+      height: 655
+>>>>>>> Stashed changes
+=======
+      height: 655
+>>>>>>> parent of 974ee44 (배경 움직임, 튜토리얼 일부)
+=======
+      height: 634
+>>>>>>> Stashed changes
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1216, y: 655}
