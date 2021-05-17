@@ -1,0 +1,85 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'ko' Physical Memory: 16154 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/888tj/Documents/GitHub/DOITGameDev/DOITGameDev
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+10302
+Successfully changed project path to: C:/Users/888tj/Documents/GitHub/DOITGameDev/DOITGameDev
+C:/Users/888tj/Documents/GitHub/DOITGameDev/DOITGameDev
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/888tj/Documents/GitHub/DOITGameDev/DOITGameDev/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 with Max-Q Design (ID=0x1f12)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.6627
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002220 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 32.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.349 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001050 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 31.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.918 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 87.9 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2255.
+Total: 2.335400 ms (FindLiveObjects: 0.310900 ms CreateObjectMapping: 0.066800 ms MarkObjects: 1.853200 ms  DeleteObjects: 0.103800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/boss.cs
+  artifactKey: Guid(39eb1b8b58df581438df185a5fbe28d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/boss.cs using Guid(39eb1b8b58df581438df185a5fbe28d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7caf408e25c9502bf7c5bf13a270b859') in 0.035846 seconds
+  Import took 0.039820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.370210 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(914c9856e5669734ea335498101d8401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(914c9856e5669734ea335498101d8401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a39c2bf5a7d5e3cf3de13ea57c4841') in 0.008943 seconds
+  Import took 0.011820 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
