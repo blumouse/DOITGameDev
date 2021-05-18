@@ -10,11 +10,12 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
-        rigid.velocity = Vector2.left * 0.1f;
+        rigid.velocity = Vector2.left * 0.5f;
     }
 
-    void Update()
-    {
-        
+    void meet()
+    {   
+
+        Destroy(gameObject);
     }
 }

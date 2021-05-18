@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
+    public string test;
     public string type;//플레이어에게 어떤 아이템인지 알려주는 변수
     Rigidbody2D rigid;
     void Start()
