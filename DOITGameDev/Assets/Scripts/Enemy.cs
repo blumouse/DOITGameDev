@@ -4,24 +4,18 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+   
     public string type;
     Rigidbody2D rigid;
     void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
-        rigid.velocity = Vector2.left * 1f;
+        rigid.velocity = Vector2.left * 0.5f;
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.gameObject.tag == "Player")
-        {
-            Destroy(this.gameObject);
-        }
-        if (collision.gameObject.tag == "Border")
-        {
-            Destroy(this.gameObject);
-        }
+    void meet()
+    {   
 
+        Destroy(gameObject);
     }
 }

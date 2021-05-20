@@ -689,6 +689,7 @@ GameObject:
   - component: {fileID: 460268066}
   - component: {fileID: 460268065}
   - component: {fileID: 460268064}
+  - component: {fileID: 460268067}
   m_Layer: 5
   m_Name: Slide
   m_TagString: Untagged
@@ -809,6 +810,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 460268062}
   m_CullTransparentMesh: 1
+--- !u!114 &460268067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460268062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40cb6f0044fb19e4696442147850f030, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &552662585
 GameObject:
   m_ObjectHideFlags: 0
@@ -1927,6 +1940,7 @@ GameObject:
   - component: {fileID: 1520695494}
   - component: {fileID: 1520695493}
   - component: {fileID: 1520695492}
+  - component: {fileID: 1520695495}
   m_Layer: 5
   m_Name: Jump
   m_TagString: Untagged
@@ -2047,6 +2061,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1520695490}
   m_CullTransparentMesh: 1
+--- !u!114 &1520695495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520695490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e53910da687d44fb39fa1cc8692be1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1596411295
 GameObject:
   m_ObjectHideFlags: 0

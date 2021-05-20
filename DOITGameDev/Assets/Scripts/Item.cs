@@ -13,15 +13,9 @@ public class Item : MonoBehaviour
         rigid.velocity = Vector2.left * 0.1f;//아이템이 왼쪽으로 가는 속도 조절
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    // Update is called once per frame
+    void Update()
     {
-        if (collision.gameObject.tag == "Player")
-        {
-            Destroy(this.gameObject);
-        }
-        if (collision.gameObject.tag == "Border")
-        {
-            Destroy(this.gameObject);
-        }
+        
     }
 }
