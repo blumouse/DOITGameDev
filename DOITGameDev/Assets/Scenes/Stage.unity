@@ -550,7 +550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hasSpawn: 0
   destroy: 0
-  "\uB808\uD3EC\uD2B8": {fileID: 4617642266662085345, guid: 489fcc4750f787a44b74f933b06e4092, type: 3}
+  "\uACFC\uC81C": {fileID: 4617642266662085345, guid: 489fcc4750f787a44b74f933b06e4092, type: 3}
   "\uC2DC\uD5D8\uC9C0": {fileID: 0}
   "\uACB0\uC11D": {fileID: 0}
   "\uC9C0\uAC01\uCC98\uB9AC": {fileID: 0}
@@ -685,7 +685,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &822178756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -702,15 +702,12 @@ MonoBehaviour:
   - {fileID: 6477449420014906477, guid: 5e0b1e43f20c03f49b204188abf2a633, type: 3}
   - {fileID: 5914513323512762773, guid: e56044d36270364409168e38820eeda0, type: 3}
   - {fileID: 6477449420014906477, guid: ea58407dfde918d41aeb8473f8434957, type: 3}
-  itemObjs: []
   spawnPoints:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   maxEnemydelay: 0
   curEnemydelay: 0
-  maxItemdelay: 0
-  curItemdelay: 0
 --- !u!4 &822178757
 Transform:
   m_ObjectHideFlags: 0

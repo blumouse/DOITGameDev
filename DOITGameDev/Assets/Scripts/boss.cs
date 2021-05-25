@@ -10,7 +10,7 @@ public class boss : MonoBehaviour
     private float TimeLeft = 2.0f;
     private float nextTime = 0.0f;
 
-    public GameObject 레포트;
+    public GameObject 과제;
     public GameObject 시험지;
     public GameObject 결석;
     public GameObject 지각처리;
@@ -19,19 +19,17 @@ public class boss : MonoBehaviour
 
 
  
-    private bool isAttacking;
     // Start is called before the first frame update
     void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
         hasSpawn = false;
         destroy = false;
-        isAttacking = false;
         
     }
 
     // Update is called once per frame
-    void Update()
+    void Update() //
     {
         //특정 시간에 맞춰서 앞으로 나와야함
         if (hasSpawn == true)
@@ -50,7 +48,10 @@ public class boss : MonoBehaviour
         }
         if (hasSpawn == true && destroy == true)
         {
-            GameObject.Destroy(gameObject);
+            //몇초 텀
+            Invoke("dest",3f);//3초후 destroy
+            //퇴장 애니매이션
+           
         }
         
         //패턴
@@ -58,9 +59,13 @@ public class boss : MonoBehaviour
      
 
     }
+    void dest()
+    {
+        GameObject.Destroy(gameObject);
+    }
     void Fire()
     {
-        GameObject bullet = Instantiate(레포트, new Vector2(6, 2), Quaternion.identity);
+        GameObject bullet = Instantiate(과제, new Vector2(6, 2), Quaternion.identity);
         Rigidbody2D rigid = bullet.GetComponent<Rigidbody2D>();
         rigid.AddForce(Vector2.left * 5, ForceMode2D.Impulse); ;
     }
