@@ -8,4 +8,19 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 408fa2ea1cc4c7f4bb96f2f25d72ab40
+  - enabled: 1
+    path: Assets/Scenes/FieldStage.unity
+    guid: 8e10a9c3adda525488608d1b0cd4afec
+  - enabled: 1
+    path: Assets/Scenes/UI.unity
+    guid: ea57245880da8b74c93b60d248347fab
+  - enabled: 1
+    path: Assets/Scenes/BossStage.unity
+    guid: b620ec005679fb843a795f6fabbce1f6
+  - enabled: 1
+    path: Assets/Scenes/BossUI.unity
+    guid: 8914d17270a519d449e54bf2ef29f329
   m_configObjects: {}

@@ -5,8 +5,13 @@ using UnityEngine.EventSystems;
 
 public class UI_JumpEvent : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
-    public Animator playeranim;
+    Animator playeranim;
     float jumptime;
+
+    void OnEnable()
+    {
+        playeranim = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
+    }
 
     private void Update()
     {
@@ -14,6 +19,18 @@ public class UI_JumpEvent : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
         {
             jumptime -= Time.deltaTime;
         }
+
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            if (jumptime <= 0)
+            {
+                playeranim.SetBool("isJump", true);
+                Stage_Player.Player_Jump();
+                jumptime = 0.95f;
+                Invoke("SetJump", 0.55f);
+            }
+        }
+
     }
 
     void IPointerDownHandler.OnPointerDown(PointerEventData eventData)
@@ -22,11 +39,17 @@ public class UI_JumpEvent : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
         {
             playeranim.SetBool("isJump", true);
             Stage_Player.Player_Jump();
-            jumptime = 1f;
+            jumptime = 0.95f;
+            Invoke("SetJump", 0.55f);
         }        
     }
 
     void IPointerUpHandler.OnPointerUp(PointerEventData eventData)
+    {
+        
+    }
+
+    void SetJump()
     {
         playeranim.SetBool("isJump", false);
     }

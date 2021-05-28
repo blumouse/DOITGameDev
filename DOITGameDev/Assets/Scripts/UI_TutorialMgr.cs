@@ -10,7 +10,7 @@ public class UI_TutorialMgr : MonoBehaviour
 
     private void OnEnable()
     {
-        Invoke("Tutorial", 3f);
+        Invoke("Tutorial", 2f);
     }
 
     public void JumpClicked()

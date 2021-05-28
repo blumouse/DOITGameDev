@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/888tj/Documents/GitHub/DOITGameDev/DOITGameDev/DOITGameDev
+C:/Users/888tj/Documents/GitHub/DOITGameDevME/DOITGameDevME
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-11382
-Successfully changed project path to: C:/Users/888tj/Documents/GitHub/DOITGameDev/DOITGameDev/DOITGameDev
-C:/Users/888tj/Documents/GitHub/DOITGameDev/DOITGameDev/DOITGameDev
+11371
+Successfully changed project path to: C:/Users/888tj/Documents/GitHub/DOITGameDevME/DOITGameDevME
+C:/Users/888tj/Documents/GitHub/DOITGameDevME/DOITGameDevME
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 53.37 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 32.76 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/888tj/Documents/GitHub/DOITGameDev/DOITGameDev/DOITGameDev/Assets
+[Subsystems] Discovering subsystems at path C:/Users/888tj/Documents/GitHub/DOITGameDevME/DOITGameDevME/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,1139 +35,154 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002142 seconds.
+Registered in 0.001994 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.38 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 39.84 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.017 seconds
+- Completed reload, in  1.505 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000891 seconds.
+Registered in 0.001121 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 53.19 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 30.68 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.176 seconds
+- Completed reload, in  0.803 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.9 MB.
-System memory in use after: 87.8 MB.
+Unloading 1834 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.1 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2266.
-Total: 3.578700 ms (FindLiveObjects: 0.781100 ms CreateObjectMapping: 0.418100 ms MarkObjects: 2.222700 ms  DeleteObjects: 0.155700 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2278.
+Total: 2.201000 ms (FindLiveObjects: 0.404900 ms CreateObjectMapping: 0.196700 ms MarkObjects: 1.472300 ms  DeleteObjects: 0.125900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites/콜잉 교수님.png
-  artifactKey: Guid(b1c80a91f4f57284ea6c0e8e0663e834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/콜잉 교수님.png using Guid(b1c80a91f4f57284ea6c0e8e0663e834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0350e5b45eda371a874b880312254315') in 0.202575 seconds
-  Import took 0.206124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000491 seconds.
-  path: Assets/Sprites/적.png
-  artifactKey: Guid(a25016a6e03d01648aef5eb5e6aa27b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/적.png using Guid(a25016a6e03d01648aef5eb5e6aa27b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95700fafae94201d08bb6cd2056bd412') in 0.024794 seconds
-  Import took 0.030862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000490 seconds.
-  path: Assets/Sprites/플레이어.png
-  artifactKey: Guid(5f9372b90cf18dd449255e0524934960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/플레이어.png using Guid(5f9372b90cf18dd449255e0524934960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5473e3f59698dada0724492b1b10a9') in 0.029392 seconds
-  Import took 0.034640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.994136 seconds.
-  path: Assets/Sprites/Player.png
-  artifactKey: Guid(5f9372b90cf18dd449255e0524934960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player.png using Guid(5f9372b90cf18dd449255e0524934960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfcd5d0fef55646bb3c7c7e0a46e2049') in 0.026465 seconds
-  Import took 0.031874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.757182 seconds.
-  path: Assets/Sprites/Enemies.png
-  artifactKey: Guid(a25016a6e03d01648aef5eb5e6aa27b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Enemies.png using Guid(a25016a6e03d01648aef5eb5e6aa27b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab35a769cc15dddeec753fce7722afe1') in 0.021174 seconds
-  Import took 0.025833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.026301 seconds.
-  path: Assets/Sprites/CollEngProf.png
-  artifactKey: Guid(b1c80a91f4f57284ea6c0e8e0663e834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/CollEngProf.png using Guid(b1c80a91f4f57284ea6c0e8e0663e834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d3029d2edee34145c7d9799748a96e') in 0.026431 seconds
-  Import took 0.031814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.131709 seconds.
-  path: Assets/Sprites/Characters
-  artifactKey: Guid(233abb2a76abaad47a2013be6d5fa328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Characters using Guid(233abb2a76abaad47a2013be6d5fa328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4699062e0f9b7e0a3b68fa3b16fa9d0d') in 0.012919 seconds
-  Import took 0.018892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.342188 seconds.
-  path: Assets/Sprites/Backgrounds
-  artifactKey: Guid(bced2160329150f489e0826edb7624c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds using Guid(bced2160329150f489e0826edb7624c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea852c9f075e9fa424ceadd99a8d6ae0') in 0.013383 seconds
-  Import took 0.018964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000967 seconds.
-  path: Assets/Sprites/Backgrounds
-  artifactKey: Guid(bced2160329150f489e0826edb7624c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds using Guid(bced2160329150f489e0826edb7624c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea852c9f075e9fa424ceadd99a8d6ae0') in 0.003792 seconds
-  Import took 0.009168 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.729473 seconds.
-  path: Assets/Sprites/Backgrounds/main.png
-  artifactKey: Guid(37be3855701de6c42b830f793eb97d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/main.png using Guid(37be3855701de6c42b830f793eb97d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0891f1540ad8c1044367d4bd6784942') in 0.030160 seconds
-  Import took 0.034852 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/Sprites/Backgrounds/횡단보도 2.png
-  artifactKey: Guid(326f0df214d4fab4088c8356571d1946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/횡단보도 2.png using Guid(326f0df214d4fab4088c8356571d1946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a67d2a110eb142cd4308a52227b92f') in 0.028372 seconds
-  Import took 0.032795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/Sprites/Backgrounds/비전타워 1.png
-  artifactKey: Guid(acd5ea59f1f0d0a40be929bc0aa47a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/비전타워 1.png using Guid(acd5ea59f1f0d0a40be929bc0aa47a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e078ad823a0620373e7c8885d27f00fa') in 0.028450 seconds
-  Import took 0.035261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/Sprites/Backgrounds/지하철 1.png
-  artifactKey: Guid(36528bb2a59b182469db86ab3b9ab569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/지하철 1.png using Guid(36528bb2a59b182469db86ab3b9ab569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a67be6228d2cee99a26559b964e2385') in 0.029623 seconds
-  Import took 0.035943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000478 seconds.
-  path: Assets/Sprites/Backgrounds/공과 1.png
-  artifactKey: Guid(f102445b934cb3640a167ea41a9664a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/공과 1.png using Guid(f102445b934cb3640a167ea41a9664a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edb5a34040ae3a9ec104de53827d79c') in 0.030587 seconds
-  Import took 0.036997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/Sprites/Backgrounds/비전타워 3.png
-  artifactKey: Guid(c51d826791978154b958e77a2f3518f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/비전타워 3.png using Guid(c51d826791978154b958e77a2f3518f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064826ce9ce26e17f3f6099807b7fbf5') in 0.032012 seconds
-  Import took 0.038278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000891 seconds.
-  path: Assets/Sprites/Backgrounds/글로벌센터 2.png
-  artifactKey: Guid(85cb61883f7068c4488652f12ad1f72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/글로벌센터 2.png using Guid(85cb61883f7068c4488652f12ad1f72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bf3bd065048de1e7a9bced30db38d8') in 0.028847 seconds
-  Import took 0.035115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/Sprites/Backgrounds/횡단보도 3.png
-  artifactKey: Guid(def5c0a442078b145b04bffb70c7e0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/횡단보도 3.png using Guid(def5c0a442078b145b04bffb70c7e0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc68346123c67f1cd3e6a1e39bf823d3') in 0.023847 seconds
-  Import took 0.029954 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000472 seconds.
-  path: Assets/Sprites/Backgrounds/횡단보도 나무.png
-  artifactKey: Guid(c6a9961837a5d054da0b22fbaaffe026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/횡단보도 나무.png using Guid(c6a9961837a5d054da0b22fbaaffe026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676a4603644051c44ec77e874771e562') in 0.022208 seconds
-  Import took 0.029412 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/Sprites/Backgrounds/지하철 올라가는길 1.png
-  artifactKey: Guid(0e7cf2a586d5bfc489ad30c336ea19ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/지하철 올라가는길 1.png using Guid(0e7cf2a586d5bfc489ad30c336ea19ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42a6181cd6be657ecb440f44fd55d6a') in 0.024993 seconds
-  Import took 0.030351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000437 seconds.
-  path: Assets/Sprites/Backgrounds/공과 3.png
-  artifactKey: Guid(e0506311b928e534fbb6e77dd867d992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/공과 3.png using Guid(e0506311b928e534fbb6e77dd867d992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b8ed7f9ac007ea3ff587ea83a20a05') in 0.024394 seconds
-  Import took 0.029316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000498 seconds.
-  path: Assets/Sprites/Backgrounds/지하철 올라가는길 3.png
-  artifactKey: Guid(073d11ff3a0cfbe4db35be5f154c9652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/지하철 올라가는길 3.png using Guid(073d11ff3a0cfbe4db35be5f154c9652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3252560fafe8a3a4f04a84421da1ee7') in 0.019882 seconds
-  Import took 0.024556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Sprites/Backgrounds/지하철 올라가는길 개찰구.png
-  artifactKey: Guid(4a7e56d0c68ecc94f9675777c66b6bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/지하철 올라가는길 개찰구.png using Guid(4a7e56d0c68ecc94f9675777c66b6bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b557688cc3dfa4ff73d5ac5654d0a502') in 0.021019 seconds
-  Import took 0.025802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Sprites/Backgrounds/지하철 2.png
-  artifactKey: Guid(4b49a622c58c935498154e61b7c53706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/지하철 2.png using Guid(4b49a622c58c935498154e61b7c53706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac43881c405d9a46f652a75bff5ae226') in 0.018813 seconds
-  Import took 0.023082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Sprites/Backgrounds/파스꾸찌 3.png
-  artifactKey: Guid(26e6713e1b2592949bdb0904e5651ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/파스꾸찌 3.png using Guid(26e6713e1b2592949bdb0904e5651ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22905a38cfe4e43b615a52dadbed1ef1') in 0.022964 seconds
-  Import took 0.027288 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Sprites/Backgrounds/글로벌센터 1.png
-  artifactKey: Guid(54f91223a24c8b64196948ea1012fc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/글로벌센터 1.png using Guid(54f91223a24c8b64196948ea1012fc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0ad43dfbc87fb42b1b8de101256bb7') in 0.020560 seconds
-  Import took 0.025339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000398 seconds.
-  path: Assets/Sprites/Backgrounds/비전타워 4.png
-  artifactKey: Guid(cbea498aba4393a4c97440b82d49fa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/비전타워 4.png using Guid(cbea498aba4393a4c97440b82d49fa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749924ade6cffb361b59dfb522b83105') in 0.020358 seconds
-  Import took 0.025092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/Sprites/Backgrounds/비전타워 2.png
-  artifactKey: Guid(56ad6ec5f6a4b44469629c10a6ad37ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/비전타워 2.png using Guid(56ad6ec5f6a4b44469629c10a6ad37ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8701b70841f8f5d38f16a7ee912be89a') in 0.027228 seconds
-  Import took 0.031958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/Sprites/Backgrounds/글로벌센터 계단.png
-  artifactKey: Guid(073598cb332bd4c4dad450a01c704ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/글로벌센터 계단.png using Guid(073598cb332bd4c4dad450a01c704ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d731576d18905016e6546f38a013924') in 0.019807 seconds
-  Import took 0.024151 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/Sprites/Backgrounds/횡단보도 1.png
-  artifactKey: Guid(353f58480506ef744a19ed1b09dcdb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/횡단보도 1.png using Guid(353f58480506ef744a19ed1b09dcdb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9968ccd9e77de88a79eed3e79683ad04') in 0.022790 seconds
-  Import took 0.027474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Sprites/Backgrounds/공과 2.png
-  artifactKey: Guid(7c2b7bc5cdf7f4848a7e03eba53bcb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/공과 2.png using Guid(7c2b7bc5cdf7f4848a7e03eba53bcb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ce5b5bd1fb17cdfecfe280d87be06b') in 0.021101 seconds
-  Import took 0.026001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/Sprites/Backgrounds/지하철 올라가는길 2.png
-  artifactKey: Guid(01371a2854c86024bb3a7b6b06aec8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/지하철 올라가는길 2.png using Guid(01371a2854c86024bb3a7b6b06aec8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968d5c04afe2f6a76a0fff5049a0b925') in 0.021465 seconds
-  Import took 0.025980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Sprites/Backgrounds/파스꾸찌 1.png
-  artifactKey: Guid(a6b5a943f80ae384aadb46b31e44fa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/파스꾸찌 1.png using Guid(a6b5a943f80ae384aadb46b31e44fa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33b7ee2d05184a3e52ffa024aace531') in 0.023125 seconds
-  Import took 0.027444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Sprites/Backgrounds/공과 4.png
-  artifactKey: Guid(26358af8c3261f947aea5867da0a4d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/공과 4.png using Guid(26358af8c3261f947aea5867da0a4d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80ea7147a90eab3d8d5d9dd2439178f') in 0.020405 seconds
-  Import took 0.024920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Sprites/Backgrounds/파스꾸찌 2.png
-  artifactKey: Guid(a4cfbce104b0b7d4eb8d2c417ee51526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/파스꾸찌 2.png using Guid(a4cfbce104b0b7d4eb8d2c417ee51526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1eb99dea09682caeadbe8e43e8981c5') in 0.020380 seconds
-  Import took 0.025629 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.894143 seconds.
-  path: Assets/Sprites/Backgrounds/main.png
-  artifactKey: Guid(37be3855701de6c42b830f793eb97d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/main.png using Guid(37be3855701de6c42b830f793eb97d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587adbc1660bd12c69bcb2fc88752f3e') in 0.027831 seconds
-  Import took 0.032678 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Sprites/Backgrounds/횡단보도 2.png
-  artifactKey: Guid(326f0df214d4fab4088c8356571d1946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/횡단보도 2.png using Guid(326f0df214d4fab4088c8356571d1946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672a456d7d5a12a48469dc0e152cb428') in 0.021752 seconds
-  Import took 0.026495 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000595 seconds.
-  path: Assets/Sprites/Backgrounds/비전타워 1.png
-  artifactKey: Guid(acd5ea59f1f0d0a40be929bc0aa47a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/비전타워 1.png using Guid(acd5ea59f1f0d0a40be929bc0aa47a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ac55ed7d1dd8beaec1441b7c20d57e') in 0.024788 seconds
-  Import took 0.029950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Sprites/Backgrounds/지하철 1.png
-  artifactKey: Guid(36528bb2a59b182469db86ab3b9ab569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/지하철 1.png using Guid(36528bb2a59b182469db86ab3b9ab569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4cace1ae3ce355fa51bade76a71c663') in 0.023842 seconds
-  Import took 0.029388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000485 seconds.
-  path: Assets/Sprites/Backgrounds/공과 1.png
-  artifactKey: Guid(f102445b934cb3640a167ea41a9664a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/공과 1.png using Guid(f102445b934cb3640a167ea41a9664a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd72c078912c75f64e2ee5db8bf01bd3') in 0.026152 seconds
-  Import took 0.033003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000468 seconds.
-  path: Assets/Sprites/Backgrounds/비전타워 3.png
-  artifactKey: Guid(c51d826791978154b958e77a2f3518f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/비전타워 3.png using Guid(c51d826791978154b958e77a2f3518f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09027fd12bd29c0499b2635d9c46a7e1') in 0.020564 seconds
-  Import took 0.027398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000624 seconds.
-  path: Assets/Sprites/Backgrounds/글로벌센터 2.png
-  artifactKey: Guid(85cb61883f7068c4488652f12ad1f72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/글로벌센터 2.png using Guid(85cb61883f7068c4488652f12ad1f72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0211343f2dba866e13b2547705424e47') in 0.022675 seconds
-  Import took 0.030848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000515 seconds.
-  path: Assets/Sprites/Backgrounds/횡단보도 3.png
-  artifactKey: Guid(def5c0a442078b145b04bffb70c7e0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/횡단보도 3.png using Guid(def5c0a442078b145b04bffb70c7e0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfba1fcba62bfc06fa12e59b39e19de4') in 0.020753 seconds
-  Import took 0.026218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Sprites/Backgrounds/횡단보도 나무.png
-  artifactKey: Guid(c6a9961837a5d054da0b22fbaaffe026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/횡단보도 나무.png using Guid(c6a9961837a5d054da0b22fbaaffe026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486a9ef75885b59c7ae0af387cb96fcd') in 0.018753 seconds
-  Import took 0.023502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Sprites/Backgrounds/지하철 올라가는길 1.png
-  artifactKey: Guid(0e7cf2a586d5bfc489ad30c336ea19ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/지하철 올라가는길 1.png using Guid(0e7cf2a586d5bfc489ad30c336ea19ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826e0939961aeff6781691aa588dd320') in 0.018961 seconds
-  Import took 0.023347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/Sprites/Backgrounds/공과 3.png
-  artifactKey: Guid(e0506311b928e534fbb6e77dd867d992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/공과 3.png using Guid(e0506311b928e534fbb6e77dd867d992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf355466123fae87d32e53359d76efb') in 0.021556 seconds
-  Import took 0.025684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/Sprites/Backgrounds/지하철 올라가는길 3.png
-  artifactKey: Guid(073d11ff3a0cfbe4db35be5f154c9652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/지하철 올라가는길 3.png using Guid(073d11ff3a0cfbe4db35be5f154c9652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2575b60198467b323e03826db971de18') in 0.017591 seconds
-  Import took 0.021947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Sprites/Backgrounds/지하철 올라가는길 개찰구.png
-  artifactKey: Guid(4a7e56d0c68ecc94f9675777c66b6bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/지하철 올라가는길 개찰구.png using Guid(4a7e56d0c68ecc94f9675777c66b6bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c258d6e5ef40b2f66d8d5e8c2fdfa1e8') in 0.022719 seconds
-  Import took 0.027264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Sprites/Backgrounds/지하철 2.png
-  artifactKey: Guid(4b49a622c58c935498154e61b7c53706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/지하철 2.png using Guid(4b49a622c58c935498154e61b7c53706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb024f53903154ec10cefe386b38e03b') in 0.019846 seconds
-  Import took 0.025361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Sprites/Backgrounds/파스꾸찌 3.png
-  artifactKey: Guid(26e6713e1b2592949bdb0904e5651ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/파스꾸찌 3.png using Guid(26e6713e1b2592949bdb0904e5651ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73a49752f65516b4a5a2e67a539dfe7') in 0.019621 seconds
-  Import took 0.024425 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Sprites/Backgrounds/글로벌센터 1.png
-  artifactKey: Guid(54f91223a24c8b64196948ea1012fc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/글로벌센터 1.png using Guid(54f91223a24c8b64196948ea1012fc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1f6e4332f1828e2304c167eb8504fa') in 0.017276 seconds
-  Import took 0.023185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/Sprites/Backgrounds/비전타워 4.png
-  artifactKey: Guid(cbea498aba4393a4c97440b82d49fa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/비전타워 4.png using Guid(cbea498aba4393a4c97440b82d49fa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9e97f2af6fa2909f2941c620e8a7db') in 0.026366 seconds
-  Import took 0.032340 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000479 seconds.
-  path: Assets/Sprites/Backgrounds/비전타워 2.png
-  artifactKey: Guid(56ad6ec5f6a4b44469629c10a6ad37ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/비전타워 2.png using Guid(56ad6ec5f6a4b44469629c10a6ad37ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1652cca0a74d19e216a5d0c0441d4ac') in 0.018177 seconds
-  Import took 0.023233 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000450 seconds.
-  path: Assets/Sprites/Backgrounds/글로벌센터 계단.png
-  artifactKey: Guid(073598cb332bd4c4dad450a01c704ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/글로벌센터 계단.png using Guid(073598cb332bd4c4dad450a01c704ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd119dc52b74cba46da46572066cf07c5') in 0.022093 seconds
-  Import took 0.025950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Sprites/Backgrounds/횡단보도 1.png
-  artifactKey: Guid(353f58480506ef744a19ed1b09dcdb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/횡단보도 1.png using Guid(353f58480506ef744a19ed1b09dcdb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f7ab3045ddc2c6190a44f66c6a10b7') in 0.022735 seconds
-  Import took 0.027565 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/Sprites/Backgrounds/공과 2.png
-  artifactKey: Guid(7c2b7bc5cdf7f4848a7e03eba53bcb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/공과 2.png using Guid(7c2b7bc5cdf7f4848a7e03eba53bcb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd7b2631be976658cea907823604466') in 0.016866 seconds
-  Import took 0.022552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Sprites/Backgrounds/지하철 올라가는길 2.png
-  artifactKey: Guid(01371a2854c86024bb3a7b6b06aec8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/지하철 올라가는길 2.png using Guid(01371a2854c86024bb3a7b6b06aec8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95db0a34d1ef48c9f2aaa14ce2c6849b') in 0.019592 seconds
-  Import took 0.024992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000481 seconds.
-  path: Assets/Sprites/Backgrounds/파스꾸찌 1.png
-  artifactKey: Guid(a6b5a943f80ae384aadb46b31e44fa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/파스꾸찌 1.png using Guid(a6b5a943f80ae384aadb46b31e44fa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebcd6eed6de5bb0705ea97172ebb9dbc') in 0.018589 seconds
-  Import took 0.023703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000513 seconds.
-  path: Assets/Sprites/Backgrounds/공과 4.png
-  artifactKey: Guid(26358af8c3261f947aea5867da0a4d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/공과 4.png using Guid(26358af8c3261f947aea5867da0a4d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12ca80c6c32fc619c57a97dc4d099ab') in 0.018525 seconds
-  Import took 0.023363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Sprites/Backgrounds/파스꾸찌 2.png
-  artifactKey: Guid(a4cfbce104b0b7d4eb8d2c417ee51526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/파스꾸찌 2.png using Guid(a4cfbce104b0b7d4eb8d2c417ee51526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17323618aba253c7a0230e58f268e79') in 0.018655 seconds
-  Import took 0.022839 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.151603 seconds.
-  path: Assets/Sprites/Characters/Enemies.png
-  artifactKey: Guid(a25016a6e03d01648aef5eb5e6aa27b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Characters/Enemies.png using Guid(a25016a6e03d01648aef5eb5e6aa27b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc9c79bb322835e8df4715e20cd8d2c') in 0.019755 seconds
-  Import took 0.024139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005147 seconds.
-  path: Assets/Sprites/Characters/CollEngProf.png
-  artifactKey: Guid(b1c80a91f4f57284ea6c0e8e0663e834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Characters/CollEngProf.png using Guid(b1c80a91f4f57284ea6c0e8e0663e834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc309369dc94fbbd06b668705acd4b0') in 0.023288 seconds
-  Import took 0.028466 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000682 seconds.
-  path: Assets/Sprites/Characters/Player.png
-  artifactKey: Guid(5f9372b90cf18dd449255e0524934960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Characters/Player.png using Guid(5f9372b90cf18dd449255e0524934960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202b1ef0f742b0f0494a99d104b3b203') in 0.021811 seconds
-  Import took 0.026754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.787986 seconds.
-  path: Assets/Sounds
-  artifactKey: Guid(f9ce675b914477f4bbdfb2a2d59d4692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds using Guid(f9ce675b914477f4bbdfb2a2d59d4692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785c683c80c1f8b18d3a4babd291c90f') in 0.011617 seconds
-  Import took 0.017587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.691628 seconds.
-  path: Assets/Sounds/-_New_Project_original.mp3
-  artifactKey: Guid(3b5ddced2ba9f6e4eabcea3024c942c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/-_New_Project_original.mp3 using Guid(3b5ddced2ba9f6e4eabcea3024c942c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96226cb61831b9faa195bfc387c7253c') in 0.076902 seconds
-  Import took 0.082895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.803952 seconds.
-  path: Assets/Sounds/attack.wav
-  artifactKey: Guid(30a5950c5f07e31419887119d51b474a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/attack.wav using Guid(30a5950c5f07e31419887119d51b474a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44e6701d42730487802090ef11c6d97') in 0.031575 seconds
-  Import took 0.036950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000461 seconds.
-  path: Assets/Sounds/item.wav
-  artifactKey: Guid(889b5aa0a0b504244a95a8d03585054c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/item.wav using Guid(889b5aa0a0b504244a95a8d03585054c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2152b3e152bbae8e16ea45fd8919c2c9') in 0.025154 seconds
-  Import took 0.029790 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000467 seconds.
-  path: Assets/Sounds/hit.wav
-  artifactKey: Guid(8d7bc17f08d2c5147a7b09b409fddea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/hit.wav using Guid(8d7bc17f08d2c5147a7b09b409fddea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9bfa643a3020608846b2ea765dce7b') in 0.023863 seconds
-  Import took 0.028580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000587 seconds.
-  path: Assets/Sounds/Jump1.wav
-  artifactKey: Guid(3a10d682f68a42c40937492c524d1084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Jump1.wav using Guid(3a10d682f68a42c40937492c524d1084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d0f7d6ffd579636132f36b2362b8fb') in 0.023829 seconds
-  Import took 0.029830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/Sounds/Item1.wav
-  artifactKey: Guid(c069794fdafe06041b08573624b1e787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Item1.wav using Guid(c069794fdafe06041b08573624b1e787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f40199907c126164cf07f82c3fd8a41') in 0.023408 seconds
-  Import took 0.030724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000516 seconds.
-  path: Assets/Sounds/slide1.wav
-  artifactKey: Guid(f1bec0b58bde186488925542aa80e041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/slide1.wav using Guid(f1bec0b58bde186488925542aa80e041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d90956cfd5415debd0b39076b68fc3') in 0.020511 seconds
-  Import took 0.028387 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000438 seconds.
-  path: Assets/Sounds/select.wav
-  artifactKey: Guid(27605a3fe6eb0af438f6cbf3b178fa97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/select.wav using Guid(27605a3fe6eb0af438f6cbf3b178fa97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c827c0b2b35e210d7f104a76889688b') in 0.020937 seconds
-  Import took 0.028433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000607 seconds.
-  path: Assets/Sounds/die.wav
-  artifactKey: Guid(756197527db5a104485de6f50e53cd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/die.wav using Guid(756197527db5a104485de6f50e53cd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c70db584c190040f3977f5e4e0ef67a') in 0.017145 seconds
-  Import took 0.022805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.385558 seconds.
-  path: Assets/Sounds/Bgm.mp3
-  artifactKey: Guid(3b5ddced2ba9f6e4eabcea3024c942c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Bgm.mp3 using Guid(3b5ddced2ba9f6e4eabcea3024c942c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53377604762559457b6c34ae1cbd082') in 0.021724 seconds
-  Import took 0.026313 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 88.712931 seconds.
-  path: Assets/Scenes/Main.unity
-  artifactKey: Guid(408fa2ea1cc4c7f4bb96f2f25d72ab40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main.unity using Guid(408fa2ea1cc4c7f4bb96f2f25d72ab40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c257feaa08b78e6b93b63431a26f26') in 0.015124 seconds
-  Import took 0.021093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.780843 seconds.
-  path: Assets/Sprites/Backgrounds/main.png
-  artifactKey: Guid(37be3855701de6c42b830f793eb97d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/main.png using Guid(37be3855701de6c42b830f793eb97d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd86527100dd99a9aac345b2a3f595be') in 0.021507 seconds
-  Import took 0.026187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.279944 seconds.
-  path: Assets/Sprites/Backgrounds/main.png
-  artifactKey: Guid(37be3855701de6c42b830f793eb97d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/main.png using Guid(37be3855701de6c42b830f793eb97d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e5b9583bb522d326968738f0b51d7d') in 0.023961 seconds
-  Import took 0.028962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000516 seconds.
-  path: Assets/Sprites/Backgrounds/횡단보도 2.png
-  artifactKey: Guid(326f0df214d4fab4088c8356571d1946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/횡단보도 2.png using Guid(326f0df214d4fab4088c8356571d1946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0246864b513410d8daf3bf8121cc84b2') in 0.019152 seconds
-  Import took 0.025075 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000497 seconds.
-  path: Assets/Sprites/Backgrounds/비전타워 1.png
-  artifactKey: Guid(acd5ea59f1f0d0a40be929bc0aa47a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/비전타워 1.png using Guid(acd5ea59f1f0d0a40be929bc0aa47a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c04491bfe90da541148d30863f3f6a3') in 0.022354 seconds
-  Import took 0.027741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Sprites/Backgrounds/지하철 1.png
-  artifactKey: Guid(36528bb2a59b182469db86ab3b9ab569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/지하철 1.png using Guid(36528bb2a59b182469db86ab3b9ab569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1ccd631e829c86259ff31a51e85c02') in 0.014779 seconds
-  Import took 0.019721 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Sprites/Backgrounds/공과 1.png
-  artifactKey: Guid(f102445b934cb3640a167ea41a9664a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/공과 1.png using Guid(f102445b934cb3640a167ea41a9664a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec46c6978e66ef102cb6983d3931932b') in 0.021934 seconds
-  Import took 0.027938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/Sprites/Backgrounds/비전타워 3.png
-  artifactKey: Guid(c51d826791978154b958e77a2f3518f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/비전타워 3.png using Guid(c51d826791978154b958e77a2f3518f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbaee49b424c500fe1c0e729ee499ffa') in 0.022693 seconds
-  Import took 0.029730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000546 seconds.
-  path: Assets/Sprites/Backgrounds/글로벌센터 2.png
-  artifactKey: Guid(85cb61883f7068c4488652f12ad1f72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/글로벌센터 2.png using Guid(85cb61883f7068c4488652f12ad1f72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70599483ac099a81a57ec894814ef965') in 0.017189 seconds
-  Import took 0.021934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/Sprites/Backgrounds/횡단보도 3.png
-  artifactKey: Guid(def5c0a442078b145b04bffb70c7e0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/횡단보도 3.png using Guid(def5c0a442078b145b04bffb70c7e0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ef07c851821b1ea8a9651253f35125') in 0.018301 seconds
-  Import took 0.023747 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000476 seconds.
-  path: Assets/Sprites/Backgrounds/횡단보도 나무.png
-  artifactKey: Guid(c6a9961837a5d054da0b22fbaaffe026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/횡단보도 나무.png using Guid(c6a9961837a5d054da0b22fbaaffe026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd4678ced80c587e48f58c1515a741d') in 0.014523 seconds
-  Import took 0.019646 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/Sprites/Backgrounds/지하철 올라가는길 1.png
-  artifactKey: Guid(0e7cf2a586d5bfc489ad30c336ea19ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/지하철 올라가는길 1.png using Guid(0e7cf2a586d5bfc489ad30c336ea19ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a4d5d4526902a5db3e9e36be0d5eff') in 0.021630 seconds
-  Import took 0.025486 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Sprites/Backgrounds/공과 3.png
-  artifactKey: Guid(e0506311b928e534fbb6e77dd867d992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/공과 3.png using Guid(e0506311b928e534fbb6e77dd867d992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6287ea129d626cf29ade5eb069a86dc2') in 0.018667 seconds
-  Import took 0.023832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/Sprites/Backgrounds/지하철 올라가는길 3.png
-  artifactKey: Guid(073d11ff3a0cfbe4db35be5f154c9652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/지하철 올라가는길 3.png using Guid(073d11ff3a0cfbe4db35be5f154c9652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c97f2083e2d0b804b7fc9213fe3e58') in 0.022616 seconds
-  Import took 0.029327 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000454 seconds.
-  path: Assets/Sprites/Backgrounds/지하철 올라가는길 개찰구.png
-  artifactKey: Guid(4a7e56d0c68ecc94f9675777c66b6bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/지하철 올라가는길 개찰구.png using Guid(4a7e56d0c68ecc94f9675777c66b6bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82d1c285522527443e617323255e620') in 0.018713 seconds
-  Import took 0.025247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000464 seconds.
-  path: Assets/Sprites/Backgrounds/지하철 2.png
-  artifactKey: Guid(4b49a622c58c935498154e61b7c53706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/지하철 2.png using Guid(4b49a622c58c935498154e61b7c53706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8633de674267b511ba7c0e6aa71c83d8') in 0.014753 seconds
-  Import took 0.020161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000398 seconds.
-  path: Assets/Sprites/Backgrounds/파스꾸찌 3.png
-  artifactKey: Guid(26e6713e1b2592949bdb0904e5651ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/파스꾸찌 3.png using Guid(26e6713e1b2592949bdb0904e5651ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8c8a0c9ce24e0c0bdff578e5f678f8') in 0.015161 seconds
-  Import took 0.019896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Sprites/Backgrounds/글로벌센터 1.png
-  artifactKey: Guid(54f91223a24c8b64196948ea1012fc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/글로벌센터 1.png using Guid(54f91223a24c8b64196948ea1012fc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413b8ae7ae34349ae43c9c6e79990fa4') in 0.013251 seconds
-  Import took 0.017579 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Sprites/Backgrounds/비전타워 4.png
-  artifactKey: Guid(cbea498aba4393a4c97440b82d49fa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/비전타워 4.png using Guid(cbea498aba4393a4c97440b82d49fa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da02168e34973a85cb5b001a13404579') in 0.021795 seconds
-  Import took 0.026210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Sprites/Backgrounds/비전타워 2.png
-  artifactKey: Guid(56ad6ec5f6a4b44469629c10a6ad37ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/비전타워 2.png using Guid(56ad6ec5f6a4b44469629c10a6ad37ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b867a417dc919da081bce6db92a49ffc') in 0.015586 seconds
-  Import took 0.020068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Sprites/Backgrounds/글로벌센터 계단.png
-  artifactKey: Guid(073598cb332bd4c4dad450a01c704ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/글로벌센터 계단.png using Guid(073598cb332bd4c4dad450a01c704ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd33265eaa114a2416240a2bc7adc993') in 0.024045 seconds
-  Import took 0.029203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000512 seconds.
-  path: Assets/Sprites/Backgrounds/횡단보도 1.png
-  artifactKey: Guid(353f58480506ef744a19ed1b09dcdb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/횡단보도 1.png using Guid(353f58480506ef744a19ed1b09dcdb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c677c5f80c0696755df29896b59b5be9') in 0.015523 seconds
-  Import took 0.020082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Sprites/Backgrounds/공과 2.png
-  artifactKey: Guid(7c2b7bc5cdf7f4848a7e03eba53bcb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/공과 2.png using Guid(7c2b7bc5cdf7f4848a7e03eba53bcb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5962b5f684493d51ecd65e5b857a92d3') in 0.022148 seconds
-  Import took 0.026418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Sprites/Backgrounds/지하철 올라가는길 2.png
-  artifactKey: Guid(01371a2854c86024bb3a7b6b06aec8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/지하철 올라가는길 2.png using Guid(01371a2854c86024bb3a7b6b06aec8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d42a979d6d12378b9e8174eed1c60d7') in 0.014806 seconds
-  Import took 0.019191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Sprites/Backgrounds/파스꾸찌 1.png
-  artifactKey: Guid(a6b5a943f80ae384aadb46b31e44fa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/파스꾸찌 1.png using Guid(a6b5a943f80ae384aadb46b31e44fa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62451c09904320576b23d26a95af86f5') in 0.016434 seconds
-  Import took 0.021127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/Sprites/Backgrounds/공과 4.png
-  artifactKey: Guid(26358af8c3261f947aea5867da0a4d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/공과 4.png using Guid(26358af8c3261f947aea5867da0a4d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78c1b3fd727a6dd4978b9cc9158bfb8') in 0.021919 seconds
-  Import took 0.026633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000446 seconds.
-  path: Assets/Sprites/Backgrounds/파스꾸찌 2.png
-  artifactKey: Guid(a4cfbce104b0b7d4eb8d2c417ee51526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/파스꾸찌 2.png using Guid(a4cfbce104b0b7d4eb8d2c417ee51526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c0d88816ab553df295327c1b1dc638') in 0.012501 seconds
-  Import took 0.017272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.633116 seconds.
-  path: Assets/Sprites/Backgrounds/main.png
-  artifactKey: Guid(37be3855701de6c42b830f793eb97d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/main.png using Guid(37be3855701de6c42b830f793eb97d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df276eed45324794ddddc046d824b891') in 0.021077 seconds
-  Import took 0.027018 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Sprites/Backgrounds/횡단보도 2.png
-  artifactKey: Guid(326f0df214d4fab4088c8356571d1946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/횡단보도 2.png using Guid(326f0df214d4fab4088c8356571d1946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa1a6efd10fcf124a2b5d7e1d64fec3') in 0.022788 seconds
-  Import took 0.027506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/Sprites/Backgrounds/비전타워 1.png
-  artifactKey: Guid(acd5ea59f1f0d0a40be929bc0aa47a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/비전타워 1.png using Guid(acd5ea59f1f0d0a40be929bc0aa47a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f802154bb56ae98894d6f17a023457eb') in 0.023004 seconds
-  Import took 0.028865 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000924 seconds.
-  path: Assets/Sprites/Backgrounds/지하철 1.png
-  artifactKey: Guid(36528bb2a59b182469db86ab3b9ab569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/지하철 1.png using Guid(36528bb2a59b182469db86ab3b9ab569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a67307757c8b68da1fdb51e27a6e4e') in 0.024828 seconds
-  Import took 0.030509 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000532 seconds.
-  path: Assets/Sprites/Backgrounds/공과 1.png
-  artifactKey: Guid(f102445b934cb3640a167ea41a9664a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/공과 1.png using Guid(f102445b934cb3640a167ea41a9664a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4cc89f7c113fc71f055097517ab615b') in 0.026179 seconds
-  Import took 0.031807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000483 seconds.
-  path: Assets/Sprites/Backgrounds/비전타워 3.png
-  artifactKey: Guid(c51d826791978154b958e77a2f3518f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/비전타워 3.png using Guid(c51d826791978154b958e77a2f3518f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d7210d9e9eb8a2f1254a6a5326dc79') in 0.024568 seconds
-  Import took 0.029029 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/Sprites/Backgrounds/글로벌센터 2.png
-  artifactKey: Guid(85cb61883f7068c4488652f12ad1f72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/글로벌센터 2.png using Guid(85cb61883f7068c4488652f12ad1f72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7def03fb8f529dba7dc2dffa187fe1') in 0.027374 seconds
-  Import took 0.031400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000446 seconds.
-  path: Assets/Sprites/Backgrounds/횡단보도 3.png
-  artifactKey: Guid(def5c0a442078b145b04bffb70c7e0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/횡단보도 3.png using Guid(def5c0a442078b145b04bffb70c7e0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2ca107482844e756d400cf2dea1f06') in 0.020969 seconds
-  Import took 0.026512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000497 seconds.
-  path: Assets/Sprites/Backgrounds/횡단보도 나무.png
-  artifactKey: Guid(c6a9961837a5d054da0b22fbaaffe026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/횡단보도 나무.png using Guid(c6a9961837a5d054da0b22fbaaffe026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa8793c267d959f26a8fd398edb3356') in 0.024091 seconds
-  Import took 0.030278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000484 seconds.
-  path: Assets/Sprites/Backgrounds/지하철 올라가는길 1.png
-  artifactKey: Guid(0e7cf2a586d5bfc489ad30c336ea19ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/지하철 올라가는길 1.png using Guid(0e7cf2a586d5bfc489ad30c336ea19ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f09e241125d113a1756f5e91610d64c') in 0.018673 seconds
-  Import took 0.024201 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Sprites/Backgrounds/공과 3.png
-  artifactKey: Guid(e0506311b928e534fbb6e77dd867d992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/공과 3.png using Guid(e0506311b928e534fbb6e77dd867d992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92806ae3f2d060fdb8e6bc7da6103d18') in 0.022493 seconds
-  Import took 0.028228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000459 seconds.
-  path: Assets/Sprites/Backgrounds/지하철 올라가는길 3.png
-  artifactKey: Guid(073d11ff3a0cfbe4db35be5f154c9652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/지하철 올라가는길 3.png using Guid(073d11ff3a0cfbe4db35be5f154c9652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9a33b159b2ed269ce6acf118fd9230') in 0.019446 seconds
-  Import took 0.024069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000437 seconds.
-  path: Assets/Sprites/Backgrounds/지하철 올라가는길 개찰구.png
-  artifactKey: Guid(4a7e56d0c68ecc94f9675777c66b6bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/지하철 올라가는길 개찰구.png using Guid(4a7e56d0c68ecc94f9675777c66b6bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1d6728d77cb8c3b207e155d7d1a2d2') in 0.027007 seconds
-  Import took 0.032147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Sprites/Backgrounds/지하철 2.png
-  artifactKey: Guid(4b49a622c58c935498154e61b7c53706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/지하철 2.png using Guid(4b49a622c58c935498154e61b7c53706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6858a30ec8cb2c2709738f001c5ce9f5') in 0.021037 seconds
-  Import took 0.025824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000523 seconds.
-  path: Assets/Sprites/Backgrounds/파스꾸찌 3.png
-  artifactKey: Guid(26e6713e1b2592949bdb0904e5651ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/파스꾸찌 3.png using Guid(26e6713e1b2592949bdb0904e5651ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10f9697f33a2a5835a7edfe0aba1206') in 0.020227 seconds
-  Import took 0.026639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000450 seconds.
-  path: Assets/Sprites/Backgrounds/글로벌센터 1.png
-  artifactKey: Guid(54f91223a24c8b64196948ea1012fc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/글로벌센터 1.png using Guid(54f91223a24c8b64196948ea1012fc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebdfa5dfdb1ef3fdc7c35fc5b7307c9') in 0.019067 seconds
-  Import took 0.025059 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000441 seconds.
-  path: Assets/Sprites/Backgrounds/비전타워 4.png
-  artifactKey: Guid(cbea498aba4393a4c97440b82d49fa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/비전타워 4.png using Guid(cbea498aba4393a4c97440b82d49fa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af64da85d2a5c8296eec7e8da4aeaf05') in 0.020557 seconds
-  Import took 0.025164 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Sprites/Backgrounds/비전타워 2.png
-  artifactKey: Guid(56ad6ec5f6a4b44469629c10a6ad37ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/비전타워 2.png using Guid(56ad6ec5f6a4b44469629c10a6ad37ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c510ec7dc4f01d450f19949b64ba694') in 0.020248 seconds
-  Import took 0.024834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/Sprites/Backgrounds/글로벌센터 계단.png
-  artifactKey: Guid(073598cb332bd4c4dad450a01c704ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/글로벌센터 계단.png using Guid(073598cb332bd4c4dad450a01c704ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbd20f43d0a55c7fa12c384eb0ac422') in 0.017857 seconds
-  Import took 0.023277 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Sprites/Backgrounds/횡단보도 1.png
-  artifactKey: Guid(353f58480506ef744a19ed1b09dcdb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/횡단보도 1.png using Guid(353f58480506ef744a19ed1b09dcdb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd277fbdbd2b38823d406b014f18f2ec5') in 0.020209 seconds
-  Import took 0.025698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000691 seconds.
-  path: Assets/Sprites/Backgrounds/공과 2.png
-  artifactKey: Guid(7c2b7bc5cdf7f4848a7e03eba53bcb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/공과 2.png using Guid(7c2b7bc5cdf7f4848a7e03eba53bcb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4828d709e8852401c324fbc3205a72') in 0.018651 seconds
-  Import took 0.024897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000443 seconds.
-  path: Assets/Sprites/Backgrounds/지하철 올라가는길 2.png
-  artifactKey: Guid(01371a2854c86024bb3a7b6b06aec8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/지하철 올라가는길 2.png using Guid(01371a2854c86024bb3a7b6b06aec8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea05f2c586492c64bd108d9088306ad') in 0.019998 seconds
-  Import took 0.025073 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000490 seconds.
-  path: Assets/Sprites/Backgrounds/파스꾸찌 1.png
-  artifactKey: Guid(a6b5a943f80ae384aadb46b31e44fa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/파스꾸찌 1.png using Guid(a6b5a943f80ae384aadb46b31e44fa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae74f28c981212a135c5bfa941f4240') in 0.020867 seconds
-  Import took 0.026663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/Sprites/Backgrounds/공과 4.png
-  artifactKey: Guid(26358af8c3261f947aea5867da0a4d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/공과 4.png using Guid(26358af8c3261f947aea5867da0a4d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f481b51afce98d77a0aa281bea9741c') in 0.022465 seconds
-  Import took 0.027668 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000644 seconds.
-  path: Assets/Sprites/Backgrounds/파스꾸찌 2.png
-  artifactKey: Guid(a4cfbce104b0b7d4eb8d2c417ee51526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Backgrounds/파스꾸찌 2.png using Guid(a4cfbce104b0b7d4eb8d2c417ee51526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3570f4ef66d0201321e7e0e64f36908a') in 0.019462 seconds
-  Import took 0.025671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.127564 seconds.
-  path: Assets/Sprites/Characters/CollEngProf.png
-  artifactKey: Guid(b1c80a91f4f57284ea6c0e8e0663e834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Characters/CollEngProf.png using Guid(b1c80a91f4f57284ea6c0e8e0663e834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c81ef833d74dd67443855668909034') in 0.019056 seconds
-  Import took 0.024143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/Sprites/Characters/Enemies.png
-  artifactKey: Guid(a25016a6e03d01648aef5eb5e6aa27b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Characters/Enemies.png using Guid(a25016a6e03d01648aef5eb5e6aa27b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c013e77602507013dfcfb03cee998fc8') in 0.025485 seconds
-  Import took 0.030433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/Sprites/Characters/Player.png
-  artifactKey: Guid(5f9372b90cf18dd449255e0524934960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Characters/Player.png using Guid(5f9372b90cf18dd449255e0524934960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ae5469a63f546aff0362804437b056') in 0.021605 seconds
-  Import took 0.026697 seconds .
+  path: Assets/Scripts/Settings_PanelCtrl.cs
+  artifactKey: Guid(64ec15e63896552488cb0f47d667f99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Settings_PanelCtrl.cs using Guid(64ec15e63896552488cb0f47d667f99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3bfc0da767c6d4d124a230358e5ec04') in 0.048775 seconds
+  Import took 0.052493 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001000 seconds.
+Registered in 0.001037 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.146 seconds
+- Completed reload, in  0.872 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1817 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.3 MB.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.1 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2287.
-Total: 3.227000 ms (FindLiveObjects: 0.520300 ms CreateObjectMapping: 0.234600 ms MarkObjects: 2.309200 ms  DeleteObjects: 0.162000 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2282.
+Total: 1.671900 ms (FindLiveObjects: 0.209300 ms CreateObjectMapping: 0.090400 ms MarkObjects: 1.286700 ms  DeleteObjects: 0.084800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001440 seconds.
+Registered in 0.000989 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.144 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1817 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.3 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2291.
-Total: 2.439100 ms (FindLiveObjects: 0.226500 ms CreateObjectMapping: 0.126800 ms MarkObjects: 1.894300 ms  DeleteObjects: 0.190400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001793 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.142 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1817 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.3 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2295.
-Total: 3.423400 ms (FindLiveObjects: 0.593500 ms CreateObjectMapping: 0.276500 ms MarkObjects: 2.384200 ms  DeleteObjects: 0.168000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000943 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.029 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1817 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.4 MB.
-System memory in use after: 91.4 MB.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.815 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.2 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2299.
-Total: 2.890000 ms (FindLiveObjects: 0.629700 ms CreateObjectMapping: 0.248200 ms MarkObjects: 1.842000 ms  DeleteObjects: 0.167900 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2286.
+Total: 1.920400 ms (FindLiveObjects: 0.284900 ms CreateObjectMapping: 0.062200 ms MarkObjects: 1.472700 ms  DeleteObjects: 0.099300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001367 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.767 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2290.
+Total: 1.994100 ms (FindLiveObjects: 0.306200 ms CreateObjectMapping: 0.121500 ms MarkObjects: 1.473500 ms  DeleteObjects: 0.091700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001113 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.792 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2294.
+Total: 1.708300 ms (FindLiveObjects: 0.194000 ms CreateObjectMapping: 0.082100 ms MarkObjects: 1.345800 ms  DeleteObjects: 0.085700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002859 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.736 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2298.
+Total: 1.810400 ms (FindLiveObjects: 0.184300 ms CreateObjectMapping: 0.066900 ms MarkObjects: 1.460200 ms  DeleteObjects: 0.097900 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 52.3 MB.
+System memory in use after: 52.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2298.
+Total: 2.127700 ms (FindLiveObjects: 0.339300 ms CreateObjectMapping: 0.126400 ms MarkObjects: 1.554300 ms  DeleteObjects: 0.086000 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

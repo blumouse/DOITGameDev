@@ -29,7 +29,7 @@ public class Main_StartBtn : MonoBehaviour
 
     void LoadScene()
     {
-        SceneManager.LoadScene("Stage");
+        SceneManager.LoadScene("FieldStage");
         SceneManager.LoadScene("UI", LoadSceneMode.Additive);
     }
 }

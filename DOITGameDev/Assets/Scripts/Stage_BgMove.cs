@@ -4,26 +4,32 @@ using UnityEngine;
 
 public class Stage_BgMove : MonoBehaviour
 {
-    public static float moveSpeed;
+    
+    public static float moveSpeed = 0;
     Vector3 bgSpeed;
     Transform bgTrans;
 
     private void OnEnable()
     {
-        moveSpeed = 1f;
         bgTrans = gameObject.GetComponent<Transform>();
-        bgSpeed = new Vector3(moveSpeed * Time.deltaTime, 0, 0);
+        Invoke("SetSpeed", 3f);        
     }
     
     void Update()
     {
-        bgTrans.position -= bgSpeed;
+        bgSpeed = new Vector3(moveSpeed * Time.deltaTime, 0, 0);
+        bgTrans.position += bgSpeed;
 
-        if (bgTrans.position.x <= -15)
+        if (Lifebox.gameover)
         {
-            bgTrans.position += new Vector3(30, 0, 0);
+            moveSpeed = 0;
         }
-
     }
 
+    void SetSpeed()
+    {
+        moveSpeed = 5f;
+    }
+
+    
 }

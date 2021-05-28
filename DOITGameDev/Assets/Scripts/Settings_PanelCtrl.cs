@@ -12,6 +12,14 @@ public class Settings_PanelCtrl : MonoBehaviour
         anim = gameObject.GetComponent<Animation>();
     }
 
+    private void Update()
+    {
+        if (Lifebox.gameover)
+        {
+            transform.parent.gameObject.SetActive(false);
+        }
+    }
+
     private void OnEnable()
     {
         anim.Play("Settings_PanelOpen");

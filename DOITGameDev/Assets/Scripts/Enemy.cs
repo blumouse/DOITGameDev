@@ -4,21 +4,27 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    Transform transform;
+    float moveSpeed = 10f;
 
-    public string type;
-    Rigidbody2D rigid;
-    void Start()
+    private void OnEnable()
     {
-        rigid = GetComponent<Rigidbody2D>();
-        rigid.velocity = Vector2.left * 1f;
+        transform = gameObject.GetComponent<Transform>();        
     }
+
+    void Update()
+    {
+        Vector3 speed = new Vector3(moveSpeed * Time.deltaTime, 0, 0);
+        transform.position += speed;
+    }
+
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Player")
+        if (collision.gameObject.CompareTag("Player"))
         {
             Destroy(gameObject);
         }
-        if (collision.gameObject.tag == "Border")
+        if (collision.gameObject.CompareTag("Border"))
         {
             Destroy(gameObject);
         }
