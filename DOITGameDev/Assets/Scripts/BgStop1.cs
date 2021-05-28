@@ -12,6 +12,12 @@ public class BgStop1 : MonoBehaviour
         {
             Stage_BgMove.moveSpeed = 0;
             bgStoped = true;
+            Invoke("ToBoss", 5f);
         }
+    }
+
+    void ToBoss()
+    {
+        bgStoped = false;
     }
 }

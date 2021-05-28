@@ -3,6 +3,8 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - BgStop1
     - BgStop2
+    - Bgm
+    - Boss_BulletFx
     - Boss_CProf
     - Boss_Eng
     - Boss_Report
@@ -44,8 +46,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -85,6 +89,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -110,11 +118,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3096}
     - Class: 114
-      Script: {instanceID: 4410}
+      Script: {instanceID: 4218}
     - Class: 114
-      Script: {instanceID: 4846}
+      Script: {instanceID: 4412}
     - Class: 114
-      Script: {instanceID: 5064}
+      Script: {instanceID: 4708}
+    - Class: 114
+      Script: {instanceID: 4850}
+    - Class: 114
+      Script: {instanceID: 5068}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -146,6 +158,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 111
@@ -175,7 +191,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3626}
     - Class: 114
-      Script: {instanceID: 4222}
+      Script: {instanceID: 4224}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -217,6 +233,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -254,9 +274,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3812}
     - Class: 114
-      Script: {instanceID: 4664}
+      Script: {instanceID: 4218}
     - Class: 114
-      Script: {instanceID: 4846}
+      Script: {instanceID: 4666}
+    - Class: 114
+      Script: {instanceID: 4850}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -343,6 +365,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 111
@@ -374,7 +400,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3626}
     - Class: 114
-      Script: {instanceID: 4222}
+      Script: {instanceID: 4224}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -466,7 +492,7 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: 1affa8455c967eb61d1307f696f29469
+      Hash: 3c55d343c63ca7adbcc781fd4e11b77f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Stage_Player
@@ -958,6 +984,12 @@ ScriptsOnlyBuild:
     className: Item
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Bgm
+  - hash:
+      serializedVersion: 2
       Hash: 20208d5122a35d563ad7191c04522f76
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -982,7 +1014,7 @@ ScriptsOnlyBuild:
     className: SpriteSkinEntity
   - hash:
       serializedVersion: 2
-      Hash: de862c726905b46ecfe6459613bcc3c9
+      Hash: bd00072602fbbc25516709048a817f02
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Boss_CProf
@@ -1022,6 +1054,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BgStop1
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Boss_BulletFx
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1071,4 +1109,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/UI.unity
   - Assets/Scenes/BossStage.unity
   - Assets/Scenes/BossUI.unity
-  playerPath: C:/Users/888tj/Desktop/DOIT/NEWBIE/0.2/DOITGameDev.exe
+  playerPath: C:/Users/888tj/Desktop/DOIT/NEWBIE/0.5/GachonRunner.exe

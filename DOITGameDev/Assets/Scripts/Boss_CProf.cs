@@ -9,29 +9,32 @@ public class Boss_CProf : MonoBehaviour
     public GameObject abc;
     public GameObject def;
     public GameObject ghi;
+    public GameObject End;
     int randomChoice;
     int PtCount;
     float PtTime;
     float pos;
+    bool end = false;
+    bool active = true;
 
     void OnEnable()
     {
         profAnim = gameObject.GetComponent<Animator>();
         StartCoroutine("SetCutScene");
-        PtCount = 10;
+        PtCount = 9;
     }
 
     private void Update()
     {
-        if (PtTime <= 0 && profAnim.GetInteger("CutScene") == 4 && PtCount != 0)
+        if (PtTime <= 0 && profAnim.GetInteger("CutScene") == 4 && PtCount > 0)
         {
-            if (PtCount < 8)
+            if (PtCount < 7)
             {
                 randomChoice = Random.Range(0, 2);
             }
             else
             {
-                randomChoice = Random.Range(0, 1);
+                randomChoice = 0;
             }
             
             switch (randomChoice)
@@ -47,14 +50,20 @@ public class Boss_CProf : MonoBehaviour
             }
             PtCount--;
         }
+        
+        if (PtCount == 0)
+        {
+            end = true;
+        }
 
         if (PtTime >= 0)
         {
             PtTime -= Time.deltaTime;
         }
 
-        if (PtCount == 0)
+        if (end && PtTime <= 0 && active)
         {
+            active = false;
             profAnim.SetBool("isHurt", true);
             StartCoroutine("BossDefeat");
         }
@@ -62,18 +71,24 @@ public class Boss_CProf : MonoBehaviour
 
     IEnumerator BossDefeat()
     {
+        yield return new WaitForSeconds(2f);
+        
+        Vector3 initialPosition = transform.position;
         for (float i = 0; i < 4; i += Time.deltaTime)
-        {
-            Vector3 initialPosition = transform.position;
+        {            
             transform.position = Random.insideUnitSphere * 0.05f + initialPosition;
             yield return new WaitForEndOfFrame();
         }
 
+        GetComponent<Transform>().position = initialPosition;
+
         yield return new WaitForSeconds(1f);
+        profAnim.SetBool("isHurt", false);
         profAnim.SetInteger("CutScene", 5);
         yield return new WaitForSeconds(2.5f);
         profAnim.SetInteger("CutScene", 6);
         GetComponent<SpriteRenderer>().flipX = true;
+        End.SetActive(true);
     }
 
     void ReportPt()
@@ -89,8 +104,8 @@ public class Boss_CProf : MonoBehaviour
         Invoke("Eng", 2f);
         Invoke("Eng", 3f);
         Invoke("Eng", 4.5f);
-        Invoke("Eng", 5.2f);
-        Invoke("Eng", 5.9f);
+        Invoke("Eng", 5.3f);
+        Invoke("Eng", 6.1f);
     }
 
     void Report()

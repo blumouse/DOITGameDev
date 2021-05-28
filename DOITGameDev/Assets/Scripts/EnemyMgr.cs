@@ -43,7 +43,11 @@ public class EnemyMgr : MonoBehaviour
                     spawnPoints[2].position,
                     spawnPoints[2].rotation);
         }
-        else if (ranEnemy == 1 || ranEnemy == 2)
+        else if (ranEnemy == 1)
+        {
+            Invoke("InstMale", 1f);
+        }
+        else if (ranEnemy == 2)
         {
             Instantiate(enemyObjs[ranEnemy],
                     spawnPoints[2].position,
@@ -57,6 +61,13 @@ public class EnemyMgr : MonoBehaviour
                         spawnPoints[ranPoint].rotation);
         }
         
+    }
+
+    void InstMale()
+    {
+        Instantiate(enemyObjs[1],
+                    spawnPoints[2].position,
+                    spawnPoints[2].rotation);
     }
     /*void SpawnItem()
     {

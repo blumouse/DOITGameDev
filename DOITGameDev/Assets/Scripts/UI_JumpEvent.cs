@@ -6,11 +6,13 @@ using UnityEngine.EventSystems;
 public class UI_JumpEvent : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     Animator playeranim;
+    AudioSource audiosource;
     float jumptime;
 
     void OnEnable()
     {
         playeranim = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
+        audiosource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -24,6 +26,7 @@ public class UI_JumpEvent : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
         {
             if (jumptime <= 0)
             {
+                audiosource.Play();
                 playeranim.SetBool("isJump", true);
                 Stage_Player.Player_Jump();
                 jumptime = 0.95f;
@@ -37,6 +40,7 @@ public class UI_JumpEvent : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     {
         if (jumptime <= 0)
         {
+            audiosource.Play();
             playeranim.SetBool("isJump", true);
             Stage_Player.Player_Jump();
             jumptime = 0.95f;

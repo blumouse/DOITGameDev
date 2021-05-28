@@ -7,7 +7,9 @@ using UnityEngine.SceneManagement;
 public class Stage_Player : MonoBehaviour
 {
     public static bool isHurt = false;
+    public static bool isPerfect = true;
     public bool isBoss = false;
+    bool isDie = false;
     Animator playeranim;
     SpriteRenderer playerSprite;
     float hurtTime;
@@ -17,12 +19,18 @@ public class Stage_Player : MonoBehaviour
     static Transform playerTrans;
     static Rigidbody2D playerRigid;
 
+    AudioSource audiosource;
+    public AudioClip hit;
+    public AudioClip die;
+
     private void Awake()
     {
         playerTrans = gameObject.GetComponent<Transform>();
         playerRigid = gameObject.GetComponent<Rigidbody2D>();
         playeranim = GetComponent<Animator>();
         playerSprite = GetComponent<SpriteRenderer>();
+
+        audiosource = gameObject.GetComponent<AudioSource>();
 
         if (!isBoss)
         {
@@ -51,13 +59,15 @@ public class Stage_Player : MonoBehaviour
         {
             playerTrans.position -= new Vector3(5 * Time.deltaTime, 0);
             Invoke("LoadBoss", 5f);
-            BgStop1.bgStoped = false;
         }
 
-        if (Lifebox.gameover)
+        if (Lifebox.gameover && !isDie)
         {
+            audiosource.clip = die;
+            audiosource.Play();
             playeranim.SetBool("isHurt", true);
-            Invoke("GOActive", 4f);
+            Invoke("GOActive", 3f);
+            isDie = true;
         }       
     }
 
@@ -65,6 +75,8 @@ public class Stage_Player : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            audiosource.clip = hit;
+            audiosource.Play();
             if (hurtTime > 0)
             {
                 return;
@@ -72,6 +84,7 @@ public class Stage_Player : MonoBehaviour
             StartCoroutine("Player_Hurt");
             GetComponent<Transform>().position += new Vector3(0, 0, 5);
             hurtTime = 3f;
+            isPerfect = false;
         }
 
     }

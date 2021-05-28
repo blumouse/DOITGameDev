@@ -14,5 +14,10 @@ public class GameEndPanel : MonoBehaviour
     private void OnEnable()
     {
         gameend = true;
+        if (Stage_Player.isPerfect)
+        {
+            transform.GetChild(3).gameObject.SetActive(true);
+            transform.GetChild(1).gameObject.SetActive(false);
+        }
     }
 }
